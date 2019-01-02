@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html, body {
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+background-color: #DBE2F1;
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	border-bottom: 2px solid lightgray;
+	border-right: 2px solid lightgray;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+  margin-top: 10px;
+}
+
+img {
+	width: 200px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+    img:hover {
+        transform: scale(2.2);
+        box-sizing: border-box;
+}
+
+
+
+#brand{
+  font-size: 1.5em;
+  float: left;
+  padding: 30px 15px 0px 15px;
+  line-height: 10px;
+  
+}
+
+#nav-main{
+  background-color: black;
+  color: #fff;
+  height: 70px;
+}
+
+#nav-main ul {
+  list-style-type: none;
+  margin:0;
+}
+
+#nav-main ul li {
+  display: inline-block;
+  padding: 30px 20px 0px 20px;
+  line-height: 10px;
+  height: 40px;
+}
+
+#nav-main ul li a {
+  text-decoration: none;
+  color: #DBE2F1;
+}
+
+#nav-main ul li:hover {
+  background-color: #797979;
+  cursor: pointer;
+}
+
+figcaption {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+
+}
+
+h2{
+  padding-left: 30px;
+}
