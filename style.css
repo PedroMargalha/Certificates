@@ -92,3 +92,8 @@ figcaption {
 h2{
   padding-left: 30px;
 }
+
+#menu > li:last-child
+{
+    float:right;
+}
